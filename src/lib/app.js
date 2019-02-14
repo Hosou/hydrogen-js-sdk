@@ -76,6 +76,10 @@ Bmob.Pointer = parmas => new Pointer(parmas)
 // 数据关联(一对多，多对多)
 Bmob.Relation = parmas => new Relation(parmas)
 
+Bmob.iLece = {
+  version: "2019/02/14"
+};
+
 if (Bmob.type === 'wx') {
   wx.Bmob = Bmob
 } else if (Bmob.type === 'h5') {
